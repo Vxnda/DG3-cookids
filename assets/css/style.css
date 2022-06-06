@@ -469,7 +469,7 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
   color: #000;
 }
@@ -524,7 +524,9 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-background-color: #efeadc;
+background-image: url(../img/fondofunciona.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .about .content h3 {
   font-weight: 600;
@@ -535,8 +537,10 @@ background-color: #efeadc;
   padding: 0;
 }
 .about .content ul li {
+  list-style-image: url(../img/punterolista.png);
+list-style-position: inside;
   font-size: 18px;
-  padding-left: 28px;
+  padding-left: 15px;
   position: relative;
 }
 .about .content ul li + li {
@@ -748,6 +752,10 @@ background-color: #efeadc;
  align-items: center;
  justify-content: center;
 }
+.titulocomofunciona{
+  max-width: 100%;
+  height: 100%;
+}
 .why-us .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
@@ -773,12 +781,13 @@ background-color: #efeadc;
   color: #000;
   transition: ease-in-out 0.3s;
   font-family: "Poppins",sans-serif;
+  font-size: 18px;
   font-weight: 700;
 }
 .why-us .icon-box p {
   text-align: center;
   line-height: 24px;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 15px;
@@ -787,6 +796,55 @@ background-color: #efeadc;
   transform: translateY(-10px);
 }
 .why-us .icon-box:hover h4 a {
+  color: #000;
+}
+
+/*--------------------------------------------------------------
+# Galeria
+--------------------------------------------------------------*/
+.galeria{
+  background: #efeadc;
+}
+
+.galeria .icon-box {
+  padding: 30px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #efeadc;
+  border-radius: 20px;
+}
+.galeria .icon-box .icon {
+  margin-bottom: 10px;
+}
+.galeria .icon-box .icon i {
+  color: #000;
+  font-size: 36px;
+  transition: 0.3s;
+}
+.galeria .icon-box h4 {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.galeria .icon-box h4 a {
+  color: #000;
+  transition: ease-in-out 0.3s;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.galeria .icon-box p {
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.galeria .icon-box:hover {
+  transform: translateY(-10px);
+}
+.galeria .icon-box:hover h4 a {
   color: #000;
 }
 
@@ -1196,7 +1254,9 @@ text-align: center;
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background-color: #f1f2ae;
+  background-image: url(../img/fondofaq.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .titulofaq{
   max-width: 100%;
@@ -1222,7 +1282,7 @@ text-align: center;
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 500;
   padding: 0 30px;
@@ -1245,7 +1305,7 @@ text-align: center;
   color: #8bbc3e;
 }
 .faq .faq-list p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
@@ -1496,7 +1556,7 @@ text-align: center;
   background-position: center;
   background-size: cover;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   color: #000;
 }
 #footer .footer-newsletter h4 {
@@ -1580,7 +1640,7 @@ text-align: center;
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #8bbc3e;
   font-size: 18px;
   line-height: 1;
 }

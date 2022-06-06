@@ -874,7 +874,7 @@ list-style-position: inside;
   color: #fff;
 }
 .box{
-  max-width: 100%;
+  max-width: 50%;
   height:auto;
 }
 .cta .cta-btn {

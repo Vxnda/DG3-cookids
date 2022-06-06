@@ -873,8 +873,8 @@ list-style-position: inside;
 .cta p {
   color: #fff;
 }
-.box{
-  max-width: 50%;
+.ctabox{
+  max-width: 40%;
   height:auto;
 }
 .cta .cta-btn {
@@ -1140,7 +1140,7 @@ align-items: center;
 justify-content: center;
 }
 .pricing .box {
-  padding: 60px 40px;
+  padding: 30px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #efeadc;
   height: 100%;

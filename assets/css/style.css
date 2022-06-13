@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: #efeadc;
+  background: #FFFEFA;
 }
 #header .logo {
   font-size: 30px;
@@ -345,9 +345,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
+  font-size: 45px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  line-height: 50px;
   color: #000;
 }
 #hero h2 {
@@ -369,10 +370,10 @@ font-size: 20px;
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #e55e62;
+  background: #FF6CFE;
 }
 #hero .btn-get-started:hover {
-  background: #e55e62;
+  background: #FF6CFE;
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -481,11 +482,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# Clients (QUE OFRECEMOS)
 --------------------------------------------------------------*/
+
 .clients {
-  background-color: #f1f2ae;
-  padding: 30px 0;
+  background-image: url(../img/FONDOPQE.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 .titulosobre{
@@ -506,11 +509,11 @@ section {
   margin: 0;
 }
 .clients img {
-  max-width: 45%;
+  max-width: 80%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
-  padding: 15px 0;
-  filter: grayscale(100);
+  padding: 0px 0;
+  padding-bottom: 10px;
 }
 .clients img:hover {
   filter: none;
@@ -518,12 +521,12 @@ section {
 }
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    max-width: 70%;
   }
 }
 
 /*--------------------------------------------------------------
-# About Us
+# About Us (PORQUE ELERGIRNOS)
 --------------------------------------------------------------*/
 .about {
 background-image: url(../img/fondofunciona.png);
@@ -687,67 +690,21 @@ list-style-position: inside;
   }
 }
 */
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
-.skills .content h3 {
-  font-weight: 700;
-  font-size: 32px;
-  color: #37517e;
-  font-family: "Poppins", sans-serif;
-}
-.skills .content ul {
-  list-style: none;
-  padding: 0;
-}
-.skills .content ul li {
-  padding-bottom: 10px;
-}
-.skills .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #47b2e4;
-}
-.skills .content p:last-child {
-  margin-bottom: 0;
-}
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #37517e;
-}
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-.skills .progress-bar-wrap {
-  background: #e8edf5;
-  height: 10px;
-}
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #4668a2;
-}
 
 /*--------------------------------------------------------------
-# Services
+# Services (how to)
 --------------------------------------------------------------*/
 .why-us{
-  background-image: url(../img/fondofunciona.png);
+  background-image: url(../img/FONDOHOWTO.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.why-us h2{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
 }
 .pasos{
  display:flex;
@@ -760,9 +717,12 @@ list-style-position: inside;
 }
 .why-us .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 50px 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
   transition: all ease-in-out 0.4s;
-  background: #8bbc3e;
+  background: #FFFEFA;
   border-radius: 20px;
 }
 .why-us .icon-box .icon {
@@ -854,9 +814,10 @@ list-style-position: inside;
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background-color: #8bbc3e;
+  background-image: url(../img/FONDOVEINTE.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  padding: 40px 0;
+  
 }
 .cta h3 {
   font-family: "Poppins", sans-serif;
@@ -867,14 +828,14 @@ list-style-position: inside;
 }
 .cta h4{
   font-family: "Poppins", sans-serif;
-  color: #efeadc;
+  color: #000;
 }
 
 .cta p {
   color: #fff;
 }
 .ctabox{
-  max-width: 40%;
+  max-width: 45%;
   height:auto;
 }
 .cta .cta-btn {
@@ -1041,13 +1002,24 @@ list-style-position: inside;
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team{
+  background-image: url(../img/FONDOTEAM.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 5px;
-  background: #fff;
+  background: #FFFEFA;
   transition: 0.5s;
+}
+.team h2{
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  padding-bottom: 20px;
 }
 .team .member .pic {
   overflow: hidden;
@@ -1064,10 +1036,11 @@ list-style-position: inside;
   padding-left: 30px;
 }
 .team .member h4 {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #000;
 }
 .team .member span {
   display: block;
@@ -1125,7 +1098,14 @@ list-style-position: inside;
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-background-color: #E55E62;
+background-color: #FFD413;
+}
+.pricing h2{
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 20px;
+  font-weight: 800;
+  font-size: 35px;
+
 }
 .pricing .row {
   padding-top: 5px;
@@ -1142,7 +1122,7 @@ justify-content: center;
 .pricing .box {
   padding: 30px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
-  background: #efeadc;
+  background: #FFFEFA;
   height: 100%;
   border-radius: 20px;
 }
@@ -1217,21 +1197,21 @@ text-align: center;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   transition: 0.3s;
-  background-color: #e55e62;
+  background-color: #FF6CFE;
 }
 .pricing .buy-btn:hover {
-  background: #e55e62;
+  background: #FF6CFE;
   color: #fff;
 }
 .pricing .featured {
   border-top-color: #e55e62;
 }
 .pricing .featured .buy-btn {
-  background: #e55e62;
+  background: #FF6CFE;
   color: #fff;
 }
 .pricing .featured .buy-btn:hover {
-  background: #e55e62;
+  background: #FF6CFE;
 }
 @media (max-width: 992px) {
   .pricing .box {
@@ -1260,6 +1240,12 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.faq h2{
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
 .titulofaq{
   max-width: 100%;
   height: auto;
@@ -1275,8 +1261,9 @@ text-align: center;
   margin-top: 15px;
 }
 .faq .faq-list li {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background: #fff;
+  background: #FFFEFA;
   border-radius: 4px;
   position: relative;
 }

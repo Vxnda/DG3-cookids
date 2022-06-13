@@ -764,7 +764,7 @@ list-style-position: inside;
 /*--------------------------------------------------------------
 # Galeria
 --------------------------------------------------------------*/
-.galeria{
+/*.galeria{
   background: #efeadc;
 }
 
@@ -808,7 +808,7 @@ list-style-position: inside;
 }
 .galeria .icon-box:hover h4 a {
   color: #000;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Cta
@@ -1114,10 +1114,13 @@ background-color: #FFD413;
   max-width: 100%;
   height: auto;
 }
-.caja1{
+.caja1 {
+max-width: 100%;
+height: auto;
 display: flex;
 align-items: center;
 justify-content: center;
+padding: 0;
 }
 .pricing .box {
   padding: 30px 40px;
@@ -1236,7 +1239,7 @@ text-align: center;
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background-image: url(../img/fondofaq.png);
+  background-image: url(../img/FONDODEFAQ.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1277,21 +1280,21 @@ text-align: center;
   padding: 0 30px;
   outline: none;
   cursor: pointer;
-  color: #8bbc3e;
+  color: #FC5E05;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #8bbc3e;
+  color: #FC5E05;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
-  color: #8bbc3e;
+  color: #FC5E05;
 }
 .faq .faq-list p {
   font-size: 16px;
@@ -1302,11 +1305,11 @@ text-align: center;
   display: none;
 }
 .faq .faq-list a.collapsed {
-  color: #8bbc3e;
+  color: #FC5E05;
   transition: 0.3s;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #8bbc3e;
+  color: #FC5E05;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1323,9 +1326,13 @@ text-align: center;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact h2{
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+}
+
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1387,8 +1394,6 @@ text-align: center;
 }
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1462,7 +1467,7 @@ text-align: center;
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #FF6CFE;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1548,17 +1553,17 @@ text-align: center;
   font-size: 16px;
   color: #000;
 }
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
+#footer .footer-newsletter h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 35px;
+  padding: 20px;
   line-height: 1;
   font-weight: 600;
   color: #000;
 }
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: #FFFEFA;
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
@@ -1579,14 +1584,14 @@ text-align: center;
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #e55e62;
+  background: #FF6CFE;
   color: #000;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #f1f2ae;
+  background: #FF6CFE;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;

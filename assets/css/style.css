@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #8bbc3e;
+  color: #000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8bbc3e;
+  color: #000;
   text-decoration: none;
 }
 
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #47b2e4;
+  color: #000;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #000;
 }
 
 @media (max-width: 991px) {
@@ -286,21 +286,21 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #FFFEFA;
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #000;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #47b2e4;
+  color: #1F6184;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: #000;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background-image: url(../img/fondohero.png);
+  background-image: url(../img/FONDOHEERO.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -349,13 +349,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
   font-weight: 800;
   line-height: 50px;
-  color: #000;
+  color: #FFFEFA;
 }
 #hero h2 {
-  color: #000000;
+  font-family: "Poppins", sans-serif;
+  color: #FFFEFA;
   margin-bottom: 50px;
   font-size: 24px;
 }
+
 .p {
 font-size: 20px;
 }
@@ -369,11 +371,11 @@ font-size: 20px;
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #fff;
-  background: #FF6CFE;
+  color: #000;
+  background: #EECF2E;
 }
 #hero .btn-get-started:hover {
-  background: #FF6CFE;
+  background: #EECF2E;
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -456,7 +458,7 @@ font-size: 20px;
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 100px 0;
   overflow: hidden;
 }
 
@@ -479,6 +481,67 @@ section {
 
 .section-title p {
   margin-bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Skills comonacio
+--------------------------------------------------------------*/
+.skills{
+  background-image: url(../img/FONDOCOMONACIO.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills .content h3 {
+  padding-top: 60px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+  font-family: "Nunito", sans-serif;
+}
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+.skills .content ul li {
+  padding-bottom: 10px;
+}
+.skills .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #47b2e4;
+}
+.skills .content p:last-child {
+  margin-bottom: 0;
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #e8edf5;
+  height: 10px;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
 }
 
 /*--------------------------------------------------------------
@@ -695,7 +758,7 @@ list-style-position: inside;
 # Services (how to)
 --------------------------------------------------------------*/
 .why-us{
-  background-image: url(../img/FONDOHOWTO.png);
+  background-image: url(../img/FONDOhowww.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -710,19 +773,19 @@ list-style-position: inside;
  display:flex;
  align-items: center;
  justify-content: center;
+ padding-bottom: 50px;
 }
 .titulocomofunciona{
   max-width: 100%;
   height: 100%;
 }
 .why-us .icon-box {
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
   padding-left: 30px;
   padding-right: 30px;
   transition: all ease-in-out 0.4s;
-  background: #FFFEFA;
+  background: transparent;
   border-radius: 20px;
 }
 .why-us .icon-box .icon {
@@ -814,21 +877,22 @@ list-style-position: inside;
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background-image: url(../img/FONDOVEINTE.png);
+  background-image: url(../img/DESCUENTOFONDO.png);
   background-repeat: no-repeat;
   background-size: cover;
   
 }
 .cta h3 {
-  font-family: "Poppins", sans-serif;
-  color: #efeadc;
-  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+  color: #FFFEFA;
+  font-size: 35px;
   font-weight: 700;
-  margin-top: 45px;
+  margin-top: 0;
 }
 .cta h4{
   font-family: "Poppins", sans-serif;
-  color: #000;
+  color: #FFFEFA;
+  font-size: 25px;
 }
 
 .cta p {
@@ -871,7 +935,7 @@ list-style-position: inside;
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+/*.portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
 }
@@ -944,6 +1008,7 @@ list-style-position: inside;
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+*/
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1003,28 +1068,28 @@ list-style-position: inside;
 # Team
 --------------------------------------------------------------*/
 .team{
-  background-image: url(../img/FONDOTEAM.png);
+  background-image: url(../img/FONDOCOMONACIO.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .team .member {
   position: relative;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 5px;
-  background: #FFFEFA;
+  background: transparent;
   transition: 0.5s;
 }
 .team h2{
   font-family: "Nunito", sans-serif;
   font-weight: 800;
   font-size: 35px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
+  width: 100px;
+  border-radius: 0%;
 }
 .team .member .pic img {
   transition: ease-in-out 0.3s;
@@ -1061,7 +1126,7 @@ list-style-position: inside;
 }
 .team .member p {
   margin: 10px 0 0 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 .team .member .social {
   margin-top: 12px;
@@ -1098,7 +1163,9 @@ list-style-position: inside;
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-background-color: #FFD413;
+background-image: url(../img/FONDOPRICINGGG.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .pricing h2{
   font-family: "Nunito", sans-serif;
@@ -1134,6 +1201,7 @@ padding: 0;
   text-align: center;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
+  margin-top: 45px;
   margin-bottom: 15px;
   font-size: 20px;
   color: #000;
@@ -1173,7 +1241,7 @@ text-align: center;
   position: relative;
 }
 .pricing ul i {
-  color: #28a745;
+  color: #000;
   font-size: 24px;
   position: absolute;
   left: 0;
@@ -1194,27 +1262,28 @@ text-align: center;
   justify-content: center;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #fff;
+  color: #000;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   transition: 0.3s;
-  background-color: #FF6CFE;
+  background-color: #00A3A0;
 }
 .pricing .buy-btn:hover {
-  background: #FF6CFE;
-  color: #fff;
+  background: #00A3A0;
+  color: #000;
 }
 .pricing .featured {
-  border-top-color: #e55e62;
+  border-top-color: #00A3A0;
 }
 .pricing .featured .buy-btn {
-  background: #FF6CFE;
-  color: #fff;
+  background: #00A3A0;
+  color: #000;
 }
 .pricing .featured .buy-btn:hover {
-  background: #FF6CFE;
+  background: #00A3A0;
+  color: #FFFEFA;
 }
 @media (max-width: 992px) {
   .pricing .box {

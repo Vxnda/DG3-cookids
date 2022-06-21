@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 #header .logo a {
+  font-family: "Nunito", sans-serif;
   color: #000;
 }
 #header .logo img {
@@ -1070,11 +1071,12 @@ text-align: center;
 /*--------------------------------------------------------------
 # Contact CONTACTO
 --------------------------------------------------------------*/
-.contact .img-fluid {
+/*.contact .img-fluid {
 position: fixed;
 width: 35%;
 height: auto;
 }
+*/
 .contact p{
   margin-bottom: 40px;
 }
@@ -1252,9 +1254,10 @@ height: auto;
 /*--------------------------------------------------------------
 # Breadcrumbs INNER PAGE
 --------------------------------------------------------------*/
+
 .breadcrumbs {
   padding: 15px 0;
-  background: #f3f5fa;
+  background: #FFFEFA;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -1266,7 +1269,7 @@ height: auto;
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #000;
 }
 .breadcrumbs ol {
   display: flex;
@@ -1282,9 +1285,256 @@ height: auto;
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4668a2;
+  color: #EC5A58;
   content: "/";
 }
+
+
+/*INNER*/
+
+#inner {
+  background-color: #FFFEFA;
+  padding-top: 30px;
+}
+
+.inner .img-fluid {
+  width: 50%;
+  height: auto;
+}
+
+.inner h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.inner .content h3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.inner .content h4{
+  font-family: "Poppins", sans-serif;
+  color: #EC5A58;
+  margin-bottom: 20px;
+}
+.inner .content ul {
+  list-style: none;
+  padding: 0;
+}
+.inner .content ul li {
+  padding-bottom: 10px;
+}
+.inner .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #47b2e4;
+}
+.inner .content p:last-child {
+  margin-bottom: 0;
+}
+.inner .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.inner .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}
+.inner .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.inner .progress-bar-wrap {
+  background: #e8edf5;
+  height: 10px;
+}
+.inner .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+.inner .content .btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  background: #00A3A0;
+  color: #000;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+}
+.inner .content .btn-learn-more:hover {
+  background: #00A3A0;
+  color: #000;
+  text-decoration: none;
+}
+
+/*RECETARIO*/
+
+#recetario {
+  background-color: #FFFEFA;
+  padding-top: 100px;
+}
+
+.recetario .img-fluid {
+  width: 80%;
+  height: auto;
+}
+
+.recetario h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.recetario .content h3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.recetario .content h4{
+  font-family: "Poppins", sans-serif;
+  color: #EC5A58;
+  margin-bottom: 20px;
+}
+.recetario .content ul {
+  list-style: none;
+  padding: 0;
+}
+.recetario .content ul li {
+  padding-bottom: 10px;
+}
+.recetario .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #47b2e4;
+}
+.recetario .content p:last-child {
+  margin-bottom: 0;
+}
+.recetario .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.recetario .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}
+.recetario .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.recetario .progress-bar-wrap {
+  background: #e8edf5;
+  height: 10px;
+}
+.recetario .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+.recetario .content .btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  background: #00A3A0;
+  color: #000;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+}
+.recetario .content .btn-learn-more:hover {
+  background: #00A3A0;
+  color: #000;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#services {
+  background-color: #FFFEFA;
+}
+.services h2{
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+}
+.dentro{
+  width: 100%;
+  height: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+ }
+ .services .icon-box {
+   padding: 50px 30px;
+   transition: all ease-in-out 0.4s;
+   background: transparent;
+ }
+ .services .icon-box .icon {
+   margin-bottom: 10px;
+ }
+ .services .icon-box .icon i {
+   color: #47b2e4;
+   font-size: 36px;
+   transition: 0.3s;
+ }
+ .services .icon-box h4 {
+   font-weight: 500;
+   margin-bottom: 15px;
+   font-size: 24px;
+ }
+ .services .icon-box h4 a {
+   color: #37517e;
+   transition: ease-in-out 0.3s;
+ }
+ .services .icon-box p {
+   text-align: center;
+   font-size: 14px;
+ }
+ .services .icon-box:hover {
+   transform: translateY(-10px);
+ }
+ .services .icon-box:hover h4 a {
+   color: #47b2e4;
+ }
+ 
+
 
 /*--------------------------------------------------------------
 # Footer

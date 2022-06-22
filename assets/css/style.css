@@ -487,7 +487,7 @@ section {
 # Skills COMO NACIÓ
 --------------------------------------------------------------*/
 .skills{
-  background-image: url(../img/FONDOCOMONACIO.png);
+  background-image: url(../img/NACIOFONDO.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -845,7 +845,7 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-background-image: url(../img/FONDOPRI.png);
+background-image: url(../img/FONDOPRIPRI.png);
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
@@ -1553,10 +1553,9 @@ height: auto;
 }
 #footer .footer-newsletter {
   padding: 40px 0;
-  background-image: url(../img/DESCUENTOFONDO.png);
+  background-image: url(../img/NEWSFONDO.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
   text-align: center;
   font-size: 16px;
   color: #FFFEFA;

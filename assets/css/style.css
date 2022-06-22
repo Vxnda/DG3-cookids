@@ -639,6 +639,8 @@ section {
   background-image: url(../img/DESCUENTOFONDO.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
   
 }
 .cta h3 {
@@ -843,12 +845,15 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-background-image: url(../img/FONDOPRICINGGG.png);
+background-image: url(../img/FONDOPRI.png);
 background-repeat: no-repeat;
+background-position: center center;
 background-size: cover;
+padding-bottom: 160px;
 }
 .pricing h2{
   font-family: "Nunito", sans-serif;
+  padding-top: 50px;
   padding-bottom: 20px;
   font-weight: 800;
   font-size: 35px;
@@ -941,7 +946,6 @@ text-align: center;
   align-items: center;
   justify-content: center;
   padding: 12px 35px;
-  margin-bottom: 20px;
   border-radius: 50px;
   color: #000;
   transition: none;
@@ -984,9 +988,7 @@ text-align: center;
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background-image: url(../img/FAQFONDOO.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #FFFEFA;
 }
 .faq h2{
   font-family: "Nunito", sans-serif;
@@ -1394,7 +1396,7 @@ height: auto;
 }
 
 .recetario .img-fluid {
-  width: 80%;
+  width: 60%;
   height: auto;
 }
 
@@ -1487,6 +1489,7 @@ height: auto;
 --------------------------------------------------------------*/
 #services {
   background-color: #FFFEFA;
+  padding-bottom: 40px;
 }
 .services h2{
   font-family: "Nunito", sans-serif;
@@ -1541,7 +1544,7 @@ height: auto;
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #f1f2ae;
+  background: #FFFEFA;
 }
 .titulosus{
   margin-bottom: 15px;
@@ -1550,7 +1553,10 @@ height: auto;
 }
 #footer .footer-newsletter {
   padding: 40px 0;
-  background-color: #EC5A58;
+  background-image: url(../img/DESCUENTOFONDO.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   text-align: center;
   font-size: 16px;
   color: #FFFEFA;
@@ -1595,7 +1601,7 @@ height: auto;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #efeadc;
+  background: #FFFEFA;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1677,6 +1683,7 @@ height: auto;
   text-decoration: none;
 }
 #footer .footer-bottom {
+  background-color: #FFFEFA;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #000;

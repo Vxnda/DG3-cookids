@@ -1508,12 +1508,20 @@ height: auto;
   font-size: 35px;
 }
 .dentro{
-  width: 100%;
+  width: 70%;
   height: auto;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 50px;
+ }
+ .dentro2 {
+  width: 75%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
  }
  .services .icon-box {
    padding: 50px 30px;

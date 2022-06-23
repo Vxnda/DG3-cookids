@@ -845,15 +845,16 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-background-image: url(../img/FONDOPRIPRI.png);
+background-image: url(../img/PRIIFON.png);
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
-padding-bottom: 160px;
+padding-top: 170px;
+padding-bottom: 170px;
 }
 .pricing h2{
   font-family: "Nunito", sans-serif;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 20px;
   font-weight: 800;
   font-size: 35px;
@@ -886,8 +887,8 @@ padding: 0;
   text-align: center;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  margin-top: 45px;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   font-size: 20px;
   color: #000;
 }
@@ -989,6 +990,7 @@ text-align: center;
 --------------------------------------------------------------*/
 .faq {
   background-color: #FFFEFA;
+  padding-top: 30px;
 }
 .faq h2{
   font-family: "Nunito", sans-serif;
@@ -1079,6 +1081,10 @@ width: 35%;
 height: auto;
 }
 */
+.contact {
+  background-color: #FFFEFA;
+  padding-top: 30px;
+}
 .contact p{
   margin-bottom: 40px;
 }

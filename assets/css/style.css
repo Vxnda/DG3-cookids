@@ -761,6 +761,7 @@ section {
   background: transparent;
   transition: 0.5s;
 }
+
 .team h2{
   font-family: "Nunito", sans-serif;
   font-weight: 800;
@@ -773,6 +774,7 @@ section {
   width: 100px;
   border-radius: 0%;
 }
+
 .team .member .pic img {
   transition: ease-in-out 0.3s;
 }
@@ -781,6 +783,9 @@ section {
 }
 .team .member .member-info {
   padding-left: 30px;
+}
+.team .member .member-info2 {
+  padding-left: 58px;
 }
 .team .member h4 {
   font-family: "Poppins", sans-serif;
@@ -1306,7 +1311,7 @@ height: auto;
 }
 
 .inner .img-fluid {
-  width: 50%;
+  width: 70%;
   height: auto;
 }
 
